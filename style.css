@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: rgb(212, 224, 224);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    background-color: rgb(145, 104, 50);
+    padding: 25px 45px;
+    border-radius: 10px;
+
+    display: inline-block;
+    margin-top: 20px;
+
+    text-decoration: none;
+    color: aqua;
+}
+
+.projects:hover {
+    background-color: orange;
+    color: black;
+    padding: 35px 55px;
+}
+
+.error {
+    text-align: center;
+}
+
+.roboto-text {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: rgb(30, 30 ,30);
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(145, 104, 50);
+    color: aqua;
+
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    align-self: center;
+}
+
+.emails a{
+    text-decoration: none;
+    color: azure;
+}
+
+.phone-number a {
+    text-decoration: none;
+    color: azure;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+
+    padding: 10px 20px;
+    background-color: rgb(223, 145, 44);
+    color: rgb(255, 255, 255);
+
+    text-decoration: none;
+    border-radius: 8px;
+    width: fit-content;
+    align-self: center;
+}
